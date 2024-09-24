@@ -76,37 +76,6 @@ const ManageSkills = () => {
               </Button>
             </CardHeader>
             <CardContent className="grid sm:grid-cols-2 gap-4">
-              {/* {skills.map((element) => {
-                return (
-                  <Card key={element._id}>
-                    <CardHeader className="text-3xl font-bold flex items-center justify-between flex-row">
-                      {element.title}
-                      <TooltipProvider>
-                        <Tooltip>
-                          <TooltipTrigger asChild>
-                            <Trash2
-                              onClick={() => handleDeleteSkill(element._id)}
-                              className="h-5 w-5 hover:text-red-500"
-                            />
-                          </TooltipTrigger>
-                          <TooltipContent side="right" style={{ color: "red" }}>
-                            Delete
-                          </TooltipContent>
-                        </Tooltip>
-                      </TooltipProvider>
-                    </CardHeader>
-                    <CardFooter>
-                      <Label className="text-2xl mr-2">Proficiency:</Label>
-                      <Input
-                        type="number"
-                        defaultValue={element.proficiency}
-                        onChange={(e) => handleInputChange(e.target.value)}
-                        onBlur={() => handleUpdateSkill(element._id)}
-                      />
-                    </CardFooter>
-                  </Card>
-                );
-              })} */}
               {skills && skills.length > 0 ? (
                 skills.map((element) => {
                   return (

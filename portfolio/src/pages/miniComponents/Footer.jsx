@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="p-5 mt-6 w-full max-w-[1050px] mx-auto">
       <hr />
       <h1 className="text-tubeLight-effect text-center text-3xl mt-5 justify-center sm:justify-start tracking-[8px]">
-        Thanks For Scrolling
+        Thanks For Scrolling.
       </h1>
     </footer>
   );
